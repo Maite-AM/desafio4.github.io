@@ -1,0 +1,32 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: auto;
+}
+
+.card img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    height: 56px;
+    background-color: #d6d6db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(104, 99, 99);
+    font-family: 'Poppins', sans-serif;
+}
